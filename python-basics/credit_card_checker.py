@@ -19,6 +19,7 @@ Instructions:
         + c_balance(). Should accept current available balance and total amount of payment as arguments and return the new remaining balance or the appropriate notification.
 
 '''
+
 try:
     # Asks user for balance and new purchase inputs and returns both
     def pasok():
