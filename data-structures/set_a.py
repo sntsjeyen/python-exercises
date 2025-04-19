@@ -1,9 +1,9 @@
 '''
 
 File Name: dictionary_a.py
-Authors: Jun Nathan Santos
+Author: Jun Nathan Santos
 Date Created: 2022-04-28
-Date Modified: 2025-04-18
+Date Modified: 2025-04-19
 Course: 6COMPRO2L - Computer Programming 2
 Institution: Holy Angel University
 
@@ -19,7 +19,8 @@ try_again = 'Y'
 while try_again == 'Y':
 
     # The program opens the text file named 'word.txt', reads the first line, and declares an empty list named 'word_list'.
-    text_file = open('word.txt', 'r')
+    # Move word.txt file from text-files to C drive
+    text_file = open('C:\\word.txt', 'r')
     word = text_file.readline()
     word_list = []
 

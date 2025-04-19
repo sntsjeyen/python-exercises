@@ -1,9 +1,9 @@
 '''
 
 File Name: dictionary_a.py
-Authors: Jun Nathan Santos
+Author: Jun Nathan Santos
 Date Created: 2022-04-28
-Date Modified: 2025-04-18
+Date Modified: 2025-04-19
 Course: 6COMPRO2L - Computer Programming 2
 Institution: Holy Angel University
 
