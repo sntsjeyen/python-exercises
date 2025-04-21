@@ -67,7 +67,7 @@ def display_output(name, quiz_ave, assign_ave, exam, grade, remarks):
     new_text.close()
 
 if __name__ == '__main__':
-    # Move records.txt file from text-files to C drive
+    # Move records.txt file from text-files to C drive or modify file path
     text_file = open('C:\\records.txt', 'r')
     n = read_name(text_file)
     q1, q2, q3, q4 = read_quiz(text_file)

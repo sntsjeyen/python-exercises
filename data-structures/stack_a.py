@@ -7,7 +7,7 @@ Date Modified: 2025-04-20
 Course: 6DSALGO - Data Structures and Algorithms
 Institution: Holy Angel University
 
-Instruction:
+Instructions:
     - Create a user-defined function to push (add) an item in the stack; display a message if it is overflow
     - Create a user-defined function to pop (delete) an item in the stack; display a message if it is underflow.
     - Validate the user input.
@@ -73,5 +73,5 @@ def menu():
         print("Invalid input. Try again.")
         menu()
 
-#main
-menu()
+if __name__ == '__main__':
+    menu()

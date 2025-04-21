@@ -19,7 +19,7 @@ try_again = 'Y'
 while try_again == 'Y':
 
     # The program opens the text file named 'word.txt', reads the first line, and declares an empty list named 'word_list'.
-    # Move word.txt file from text-files to C drive
+    # Move word.txt file from text-files to C drive or modify file path
     text_file = open('C:\\word.txt', 'r')
     word = text_file.readline()
     word_list = []
